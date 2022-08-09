@@ -1,0 +1,64 @@
+package parseComplexJson;
+
+public class Notes {
+}
+}
+/*
+	parse complex JSON
+	1. print no of courses returned by API
+	2. print purchase Amount
+	3.print title of the first course
+	4.Print all course titles and their respective prices
+	5. print no of copies sold by rpa courses
+	6. verify sum of all courses prices matches with purchase amount
+	
+
+HOW TO PARSE COMPLEX JASON
+
+SQUARE BRACKET INDICATE ARRAY
+OPEN  JASON EDITOR ONLINR AND COPY PATE 
+
+{
+  "dashboard": {
+    
+"purchaseAmount":910,
+    
+"website":"rahulshettyacademy.com"
+ 
+ },
+ 
+ "courses":[
+
+{
+  
+"title":"selenium python",
+  
+"price":50,
+  
+"copies":6
+},
+   
+ {
+  
+"title":"cypress",
+  
+"price":60,
+ 
+ "copies":4
+   
+ },
+    
+{
+      
+"title":"RPA",
+ 
+ "price":70,
+  
+"copies":10
+   
+ }  
+]
+  
+}
+*/
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T17:25:11 IST" name="TestNG by groups" finished-at="2022-07-13T17:25:11 IST" duration-ms="76">
+    <groups>
+      <group name="logout">
+        <method signature="Groups.T3()[pri:3, instance:test1.Groups@76c3e77a]" name="T3" class="test1.Groups"/>
+        <method signature="Groups.T4()[pri:4, instance:test1.Groups@76c3e77a]" name="T4" class="test1.Groups"/>
+      </group> <!-- logout -->
+      <group name="reg">
+        <method signature="Groups.T1()[pri:1, instance:test1.Groups@76c3e77a]" name="T1" class="test1.Groups"/>
+        <method signature="Groups.T2()[pri:2, instance:test1.Groups@76c3e77a]" name="T2" class="test1.Groups"/>
+        <method signature="Groups.T3()[pri:3, instance:test1.Groups@76c3e77a]" name="T3" class="test1.Groups"/>
+        <method signature="Groups.T4()[pri:4, instance:test1.Groups@76c3e77a]" name="T4" class="test1.Groups"/>
+        <method signature="Groups.beforeMethod()[pri:0, instance:test1.Groups@76c3e77a]" name="beforeMethod" class="test1.Groups"/>
+      </group> <!-- reg -->
+      <group name="registration">
+        <method signature="Groups.T3()[pri:3, instance:test1.Groups@76c3e77a]" name="T3" class="test1.Groups"/>
+      </group> <!-- registration -->
+      <group name="login">
+        <method signature="Groups.T1()[pri:1, instance:test1.Groups@76c3e77a]" name="T1" class="test1.Groups"/>
+        <method signature="Groups.T2()[pri:2, instance:test1.Groups@76c3e77a]" name="T2" class="test1.Groups"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2022-07-13T17:25:11 IST" name="GRP-reg" finished-at="2022-07-13T17:25:11 IST" duration-ms="76">
+      <class name="test1.Groups">
+        <test-method signature="beforeMethod()[pri:0, instance:test1.Groups@76c3e77a]" started-at="2022-07-13T17:25:11 IST" name="beforeMethod" finished-at="2022-07-13T17:25:11 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="T1()[pri:1, instance:test1.Groups@76c3e77a]" started-at="2022-07-13T17:25:11 IST" name="T1" finished-at="2022-07-13T17:25:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+        <test-method signature="T2()[pri:2, instance:test1.Groups@76c3e77a]" started-at="2022-07-13T17:25:11 IST" name="T2" finished-at="2022-07-13T17:25:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T2 -->
+        <test-method signature="T3()[pri:3, instance:test1.Groups@76c3e77a]" started-at="2022-07-13T17:25:11 IST" name="T3" finished-at="2022-07-13T17:25:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T3 -->
+        <test-method signature="T4()[pri:4, instance:test1.Groups@76c3e77a]" started-at="2022-07-13T17:25:11 IST" name="T4" finished-at="2022-07-13T17:25:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T4 -->
+      </class> <!-- test1.Groups -->
+    </test> <!-- GRP-reg -->
+  </suite> <!-- TestNG by groups -->
+</testng-results>

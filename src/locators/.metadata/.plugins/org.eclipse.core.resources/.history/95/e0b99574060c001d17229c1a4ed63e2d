@@ -1,0 +1,12 @@
+package parseComplexJson;
+
+public class Notes {
+
+	parse complex JSON
+	1. print no of courses returned by API
+	2. print purchase Amount
+	3.print title of the first course
+	4.Print all course titles and their respective prices
+	5. print no of copies sold by rpa courses
+	6. verify sum of all courses prices matches with purchase amount
+}
